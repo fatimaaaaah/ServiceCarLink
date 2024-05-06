@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SincrireComponent } from './sincrire/sincrire.component';
+import { SeConnecterComponent } from './se-connecter/se-connecter.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SincrireComponent,
+    SeConnecterComponent
   ],
   imports: [
     BrowserModule,
