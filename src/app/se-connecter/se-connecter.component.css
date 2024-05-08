@@ -1,0 +1,76 @@
+/* Ajoutez ceci à votre fichier CSS */
+
+.carousel-caption {
+  text-align: center;
+  color: rgb(9, 9, 9); /* Changement de couleur du texte */
+  font-size:22px ;
+  margin-left: 550px;
+  margin-top: -1000px;
+  margin-bottom: -150px ;
+}
+.carousel-caption p {
+  color: lightgray;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.carousel-indicators li {
+  background-color: rgb(255, 98, 0); /* Changement de couleur des points */
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+  width: 10px;
+  height: 10px;
+}
+
+.carousel-indicators .active {
+  background-color: rgb(255, 98, 0); /* Changement de couleur des points actifs */
+}
+
+.form-container {
+  margin-top: 50px;
+}
+
+.form-container .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-container .col {
+  flex: 1;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.form-control {
+  width: calc(100% - 24px); /* Réduit la largeur des champs de formulaire */
+  margin-right: 0; /* Supprime la marge droite pour aligner les champs avec le bouton */
+}
+
+.boutton {
+  width: calc(100% - 24px); /* Réduit la largeur du bouton pour qu'il soit égal à celle des champs de formulaire */
+  background-color: orangered;
+  height: 40px ;
+  border-color: orangered;
+  margin-top: 20px;
+}
+
+.lien a {
+  color: orange;
+  text-decoration: none;
+}
+
+/* Définir la couleur de l'outline sur noir */
+input:focus {
+  outline: 1px solid black;
+}
+
