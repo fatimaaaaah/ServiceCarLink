@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SincrireComponent } from './sincrire.component';
+import { SinscrireComponent } from './sincrire.component';
 
 describe('SincrireComponent', () => {
-  let component: SincrireComponent;
-  let fixture: ComponentFixture<SincrireComponent>;
+  let component: SinscrireComponent;
+  let fixture: ComponentFixture<SinscrireComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SincrireComponent ]
+      declarations: [ SinscrireComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SincrireComponent);
+    fixture = TestBed.createComponent(SinscrireComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

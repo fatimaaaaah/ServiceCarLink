@@ -21,7 +21,7 @@
 }
 
 .carousel-indicators li {
-  background-color: rgb(255, 98, 0); /* Changement de couleur des points */
+  background-color: #FD6601; /* Changement de couleur des points */
   border-radius: 50%;
   display: inline-block;
   margin: 0 5px;
@@ -30,7 +30,7 @@
 }
 
 .carousel-indicators .active {
-  background-color: rgb(255, 98, 0); /* Changement de couleur des points actifs */
+  background-color: #FD6601; /* Changement de couleur des points actifs */
 }
 
 .form-container {
@@ -58,18 +58,17 @@
 
 .boutton {
   width: calc(100% - 24px); /* Réduit la largeur du bouton pour qu'il soit égal à celle des champs de formulaire */
-  background-color: orangered;
+  background-color: #FD6601;
   height: 40px ;
-  border-color: orangered;
+  border-color: #FD6601;
   margin-top: 20px;
 }
 
 .lien a {
-  color: orange;
+  color :#FD6601;
   text-decoration: none;
 }
 
-/* Définir la couleur de l'outline sur noir */
 input:focus {
   outline: 1px solid black;
 }

@@ -1,17 +1,18 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-sinscrire',
-  templateUrl: './sinscrire.component.html',
-  styleUrls: ['./sinscrire.component.css']
+  templateUrl: './sincrire.component.html',
+  styleUrls: ['./sincrire.component.css']
 })
-export class SinscrireComponent {
+export class SinscrireComponent implements OnInit {
 
-  constructor(private router: Router) { }
-
-  continuer() {
-    // Redirection vers la page souhaitée
+  constructor(private router: Router) {}
+  ngOnInit(): void {
+  }
+  redirigerVersPage(): void {
+    // Rediriger vers la page souhaitée (par exemple 'ma-page')
     this.router.navigate(['/sinscrire2']);
   }
 
