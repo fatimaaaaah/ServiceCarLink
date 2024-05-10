@@ -11,7 +11,7 @@ export class Sinscrire2Component implements OnInit {
   constructor(private router: Router) {}
   ngOnInit(): void {
   }
-  redirigerVersPage(): void {
+  redirigerVersAcceuil(): void {
     // Rediriger vers la page souhaitée (par exemple 'ma-page')
     this.router.navigate(['/acceuil']);
   }

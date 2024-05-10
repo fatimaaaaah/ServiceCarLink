@@ -19,7 +19,7 @@ const routes: Routes = [
     component: SeConnecterComponent
   },
   {
-    path: 'accueil',
+    path: 'acceuil',
     component: AccueilComponent
   },
 

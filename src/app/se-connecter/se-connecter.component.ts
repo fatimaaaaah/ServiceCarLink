@@ -11,11 +11,11 @@ export class SeConnecterComponent implements OnInit {
   constructor(private router: Router) {}
   ngOnInit(): void {
   }
-  redirigerVersPage(): void {
+  redirigerVersSinscrire(): void {
     // Rediriger vers la page souhaitée (par exemple 'ma-page')
     this.router.navigate(['/sinscrire']);
   }
-  redirigerVersPage1(): void {
+  redirigerVersAcceuil(): void {
     // Rediriger vers la page souhaitée (par exemple 'ma-page')
     this.router.navigate(['/acceuil']);
   }
