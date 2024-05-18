@@ -11,8 +11,8 @@ export class AccueilComponent implements OnInit {
   constructor(private router: Router) {}
   ngOnInit(): void {
   }
-  redirigerVersPage(): void {
+  redirigerVersServices(): void {
     // Rediriger vers la page souhaitée (par exemple 'ma-page')
-    this.router.navigate(['/acceuil']);
+    this.router.navigate(['/services']);
   }
 }

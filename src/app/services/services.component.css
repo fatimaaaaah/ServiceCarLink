@@ -1,0 +1,188 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+*/
+
+}
+section {
+    margin-top: 70px;
+}
+body{
+    position: relative;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+.menu {
+    display: flex;
+}
+.logo {
+    color: rgb(255, 251, 251);
+    font-weight: 700;
+    font-size: 22px;
+    margin: -20px;
+
+}
+.logo span {
+    font-weight: bold;
+}
+.wrapper img {
+    width: 10px;
+    width: 40px;
+    margin-top: 40px;
+    height:20px;
+    margin-left: -40%;
+}
+.menu li {
+    margin: 0  70px;
+    list-style: none;
+    margin-top: -50px;
+    font-size: 25px;
+}
+.menu li a {
+    font-size: 14px;
+    text-decoration: 0;
+    color: rgb(246, 246, 246);
+    position: relative;
+}
+.menu li a::before {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: rgb(255, 252, 252);
+    transition: 0.5s;
+    border-radius: 6px;
+}
+.menu li a:hover::before {
+    width: 100%;
+}
+.menu li a::after {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #FD6601;
+    transition: 0.5s;
+    border-radius: 6px;
+}
+.menu li a:hover::after {
+    width: 100%;
+}
+.menu li a:hover {
+    color: rgb(255, 255, 255);
+}
+
+/*--------------------------Monuments-----------------------*/
+#Monuments {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 10px;
+}
+.mini_title {
+    margin-top: -95px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #FD6601;
+
+}
+.title {
+    font-size: 20px;
+    color: #FD6601;
+    margin-bottom: 55px;
+    text-align: center;
+
+}
+.monuments {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.infos  p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.monuments .status  {
+    height: 370px;
+    width: 300px;
+    background-color: transparent;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 6px;
+    margin-bottom: 35px;
+    transition: 0.5s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.monuments .status img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    transition: all 0.5s linear;
+}
+.monuments .status  p {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.monuments .status .titre {
+  font-size: 17px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.monuments .status a {
+  margin-top: 10px;
+    font-size: 17px;
+    width: 120px;
+    height: 50px;
+    padding: 14px;
+    text-align: center;
+    text-decoration: 0;
+    background-color: #FD6601;
+    color:#121212;
+    border-radius: 6px;
+    font-weight: bold;
+
+}
+.monuments .status img:hover {
+    width: 130px;
+    height: 130px;
+}
+
+.bak{
+  background-color: #F8F8F8;
+}
+.acolor{
+  color: #FD6601;
+}
+

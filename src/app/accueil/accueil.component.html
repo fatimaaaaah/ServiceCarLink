@@ -1,1 +1,128 @@
-<p>Bienvenue dans la page dacceuil</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./accueil.component.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Acceuil</title>
+
+  </head>
+
+
+
+  <nav class="navbar navbar-expand-lg bg-dark"data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="../../assets/acceuil/Vector.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+        Service<b>Car</b>Link
+
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+            <a class="nav-link active " aria-current="page" href="accueil.component.html">Acceuil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">A propos </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" (click)="redirigerVersServices()" >
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="bak">
+
+    <div class=" p-5 mb-5" >
+      <img src="../../assets/acceuil/1.jpg" class="img-fluid" alt="...">
+    </div>
+
+      <div class=" p-5 mb-5 "  >
+          <h3 class="text-center mb-4">Marques</h3>
+          <img src="../../assets/acceuil/2.jpg" class="rounded mx-auto d-block " >
+      </div>
+
+      <div class="p-5 mb-5" style="background-color: EAEBF0; height: 50%;">
+          <h3 class="text-center mb-5">A propos</h3>
+          <div class="text-center mx-auto mb-5" style="width: 70%; font-size: x-large; ">
+              <p>
+                  ServiceCarLink est une entreprise spécialisée dans la gestion de garages automobiles,
+                  avec pour objectif principal d'optimiser l'efficacité opérationnelle et d'améliorer
+                  la qualité des services offerts aux clients. Cette entreprise offre une gamme complète
+                  de solutions et de services destinés à aider les garages automobiles à fonctionner de
+                  manière plus efficace et à fournir un meilleur service à leur clientèle.
+              </p>
+          </div>
+      </div>
+
+      <div class="p-3 mb-3">
+          <h3 class="text-center mb-4">Nos Services</h3>
+          <img src="../../assets/acceuil/3.jpg" class="rounded mx-auto d-block " >
+          <img src="../../assets/acceuil/4.jpg" class="rounded mx-auto d-block " >
+      </div>
+
+      <div class="">
+          <h3 class="text-center mb-5">Contacts</h3>
+          <div style="height: 30%; background-color: black; ">
+              <div class="container">
+                  <div class="row gx-5">
+                    <div class="col">
+                     <div class="p-5" style="color: whitesmoke;"><h5>Contactez-nous</h5>
+                      <div class="mb-3">
+
+                          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Entrez votre email">
+                        </div>
+                        <div class="mb-4">
+
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                        </div>
+                  </div>
+                    </div>
+                    <div class="col">
+                      <div class="p-5" style="color: white;"><h5>Achat & Véhicule</h5>
+                              <a href="" class="acolor p-3" >Acheter une voiture</a><br/>
+                              <a href="" class="acolor p-3">prendre un rendez-vous</a><br/>
+                              <a href="" class="acolor p-3">choisir la voiture qui vous convient</a>
+                      </div>
+                    </div>
+                    <div class="col" style="color: white;">
+                      <div class="p-5"><h5> Custom column padding </h5>
+                         <p style="color: #FD6601;">
+         
+    -                 Adresse : Nord Foire VDN <br/>
+                          Boite Postale : 3456FD <br/>
+                          Téléphone :  (+221) 33 869 04 12 <br/>
+                         </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+
+      </div>
+
+      <div class="">
+          <div class="row gx-6">
+              <div class="col">
+                  <div class="p-1">Conditions d’utilisation</div>
+                  <div class="p-1">Confidantialité</div>
+                  <div class="p-1">Tous les droits nous sont réservés</div>
+          </div></div>
+      </div>
+  </div>
